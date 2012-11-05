@@ -1,0 +1,5 @@
+plugins=(git)
+export ZSH_THEME="muse"
+zstyle '*' single-ignored complete
+COMPLETION_WAITING_DOTS="true"
+export EDITOR='edit --wait --resume'
