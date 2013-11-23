@@ -1,22 +1,28 @@
 [
 	// Open console
-	{ "keys": ["ctrl+shift+backquote"] , "command": "show_panel", "args": {"panel": "console", "toggle": true} },
+	{ "keys": ["ctrl+shift+backquote" ] , "command": "show_panel", "args": {"panel": "console", "toggle": true} },
 	// Move line up
-	{ "keys": ["shift+super+up"]       , "command": "swap_line_up" },
+	{ "keys": ["shift+super+up"       ] , "command": "swap_line_up" },
 	// Move line down
-	{ "keys": ["shift+super+down"]     , "command": "swap_line_down" },
+	{ "keys": ["shift+super+down"     ] , "command": "swap_line_down" },
 	// S-enter : New line after
-	{ "keys": ["shift+enter"]          , "command": "run_macro_file", "args": {"file": "res://Packages/Default/Add Line.sublime-macro"} },
+	{ "keys": ["shift+enter"          ] , "command": "run_macro_file", "args": {"file": "res://Packages/Default/Add Line.sublime-macro"} },
 	// DS-enter: New line before
-	{ "keys": ["super+shift+enter"]    , "command": "run_macro_file", "args": {"file": "res://Packages/Default/Add Line Before.sublime-macro"} },
+	{ "keys": ["super+shift+enter"    ] , "command": "run_macro_file", "args": {"file": "res://Packages/Default/Add Line Before.sublime-macro"} },
 	// Delete line
-	{ "keys": ["super+d"]              , "command": "run_macro_file", "args": {"file": "res://Packages/Default/Delete Line.sublime-macro"} },
+	{ "keys": ["super+d"              ] , "command": "run_macro_file", "args": {"file": "res://Packages/Default/Delete Line.sublime-macro"} },
 	// Select word
-	{ "keys": ["option+up"]            , "command": "find_under_expand" },
+	{ "keys": ["option+up"            ] , "command": "find_under_expand" },
 	// Join this line with the next line
-	{ "keys": ["super+j"]              , "command": "join_lines" },
+	{ "keys": ["super+j"              ] , "command": "join_lines" },
 	// Duplicate current line down
-	{ "keys": ["super+option+down"]    , "command": "duplicate_line_down" },
+	{ "keys": ["super+option+down"    ] , "command": "duplicate_line_down" },
 	// Duplicate current line up
-	{ "keys": ["super+option+up"]      , "command": "duplicate_line_up" },	
+	{ "keys": ["super+option+up"      ] , "command": "duplicate_line_up" },
+	// Jump back to the previous edit location
+	{ "keys": ["super+option+left"    ] , "command": "jump_back" },
+	// Jump forward to the next edit location
+	{ "keys": ["super+option+right"   ] , "command": "jump_forward" },
+	// Select By Regex
+	{ "keys": ["super+alt+shift+f"], "command": "select_by_regex" },
 ]

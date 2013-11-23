@@ -8,5 +8,7 @@
 	[
 		120
 	],
+	"scroll_past_end": true,
+	"test": false,
 	"trim_automatic_white_space": true
 }

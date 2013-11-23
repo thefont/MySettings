@@ -1,7 +1,13 @@
 {
 	"installed_packages":
 	[
+		"AdvancedNewFile",
 		"AlignTab",
+		"DocBlockr",
+		"FileDiffs",
+		"Modific",
+		"Pretty JSON",
+		"Select By Regex",
 		"SublimeGit"
 	]
 }
