@@ -10,5 +10,6 @@
 	],
 	"scroll_past_end": true,
 	"test": false,
-	"trim_automatic_white_space": true
+	"trim_automatic_white_space": true,
+    "atomic_save": false
 }
