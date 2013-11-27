@@ -2,6 +2,7 @@
 	"installed_packages":
 	[
 		"AlignTab",
+		"PowerShell",
 		"Select By Regex",
 		"Solarized Color Scheme"
 	]
