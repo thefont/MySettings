@@ -1,0 +1,12 @@
+[
+	{ "keys":["alt+up"], "command"           :"swap_line_up" },
+	{ "keys":["alt+down"], "command"         :"swap_line_down" },
+	{ "keys":["alt+d"], "command"            :"run_macro_file", "args":{"file":"res://Packages/Default/Delete Line.sublime-macro"} },
+	{ "keys":["ctrl+d"], "command"           :"duplicate_line" },
+	{ "keys":["shift+enter"], "command"      :"run_macro_file", "args":{"file":"res://Packages/Default/Add Line.sublime-macro"} },
+	{ "keys":["ctrl+shift+enter"], "command" :"run_macro_file", "args":{"file":"res://Packages/Default/Add Line Before.sublime-macro"} },
+	{ "keys":["alt+f"], "command"            :"select_by_regex" },
+	{ "keys":["ctrl+p"], "command": "show_overlay", "args": {"overlay": "goto", "show_files": true} },
+	{ "keys":["ctrl+shift+p"], "command": "show_overlay", "args": {"overlay": "command_palette"} },
+	{ "keys": ["alt+f"], "command": "select_by_regex" },
+]
